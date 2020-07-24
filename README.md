@@ -164,7 +164,7 @@ Refer to: [/sources/com/samsung/accessory/neobeanmgr/core/service/EarBudsUsageRe
 
 ### Debug Menu
 
-The Buds Live get a hidden debug menu as well. It'll work the same way the one for the Buds+ did. Check my reddit post (includes instructions) about this: <https://www.reddit.com/r/galaxybuds/comments/hjgfaf/galaxy_buds_i_found_a_new_debug_menu/>
+The Buds Live get a hidden debug menu as well. It'll work the same way the one for the Buds+ did and has the same features. Check my reddit post (includes instructions) about this: <https://www.reddit.com/r/galaxybuds/comments/hjgfaf/galaxy_buds_i_found_a_new_debug_menu/>
 
 ### Future Online Manual
 
