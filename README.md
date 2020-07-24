@@ -7,8 +7,6 @@ This repository contains all information I was able to find while searching thro
 
 This is the API I accessed in order to get their pre-release APK: <https://vas.samsungapps.com/stub/stubDownload.as?appId=com.samsung.accessory.neobeanmgr&deviceId=SM-G950F&mcc=262&mnc=03&csc=DBT&sdkVer=28&pd=0&systemId=0000000000000&callerId=com.samsung.android.app.watchmanager&abiType=64&extuk=000000000000000>
 
-And this is the actual link to the APK (from the response of the previous URL): <http://samsappsbn.vo.llnwd.net/astore_bin/dqasvgmgej/2020/0707/prePost_20200707060019839.apk?ctnt_id=000005094632&bsize=9344359&e=1595621530&h=e3169cb92bef5ccdbcd77deb639a66f5>
-
 ## Resources
 
 ### Animated tutorials
