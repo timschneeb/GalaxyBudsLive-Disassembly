@@ -144,13 +144,13 @@ Refer to: [/sources/com/samsung/accessory/neobeanmgr/module/mainmenu/AdvancedAct
 
 ### Bixby
 
-You can enable/disable ANC by Voice command, but otherwise than that, they haven't added anything now to it. No changes for bixby routines at all.
+You can enable/disable ANC by Voice command but other than that, they haven't added anything now to it. No changes for bixby routines at all.
 
 Refer to: [/sources/com/samsung/accessory/neobeanmgr/core/bixby/BixbyTurnOnFeature.java](disassembly_2020-07-06/sources/com/samsung/accessory/neobeanmgr/core/bixby/BixbyTurnOnFeature.java)
 
 ### Find my mobile
 
-Interestingly, the app refers to the FMM API (Find my mobile, NOT Find my gear). It may allow users, to let the Buds ring using the Find my mobile website/app and to retrace their steps using phone's GPS if you lost your Buds Live or to display the GPS location when they were last seen by the Android device. This is just a guess though.
+Interestingly, the app refers to the FMM API (Find my mobile, NOT Find my gear). It may allow users, to let the Buds ring using the Find my mobile website/app and to retrace their steps using the phone's GPS if you lost your Buds Live or to display the GPS location when they were last seen by the Android device. This is just a guess though. (And since it relies on the "Find my mobile service" (com.samsung.android.fmm), it would be an Samsung-only feature)
 
 Refer to: [/sources/com/samsung/accessory/neobeanmgr/core/fmm/](disassembly_2020-07-06/sources/com/samsung/accessory/neobeanmgr/core/fmm/)
 
