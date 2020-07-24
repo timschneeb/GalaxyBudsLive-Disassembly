@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:height="24dp" android:width="24dp" android:viewportWidth="78" android:viewportHeight="78">
+    <path android:fillColor="?attr/roundedCornerColor" android:pathData="M0,0c0,43.1 34.9,78 78,78H0V0z"/>
+    <path android:pathData="M0,0c0,43.1 34.9,78 78,78" android:strokeColor="?attr/roundedCornerStrokeColor"/>
+</vector>

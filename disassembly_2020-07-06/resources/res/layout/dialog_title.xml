@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:id="@+id/linearlayout_alertdialog_customtitle" android:paddingTop="@dimen/dialog_title_padding_top_bottom" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/dialog_title_padding_start_end" android:paddingEnd="@dimen/dialog_title_padding_start_end">
+    <TextView android:id="@+id/tv_dialog_title" style="@style/FotaProviderTheme.Widget.TextView.DialogTitle"/>
+</LinearLayout>

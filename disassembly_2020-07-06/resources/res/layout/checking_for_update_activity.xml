@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:background="@color/activity_base_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ProgressBar android:layout_gravity="center_horizontal" android:id="@+id/progress_circle_in_activity" android:layout_width="@dimen/progress_circle_size" android:layout_height="@dimen/progress_circle_size" android:layout_marginBottom="@dimen/activity_checking_for_update_progress_circle_margin_bottom" android:indeterminateOnly="true" android:indeterminateDrawable="@drawable/fotaprovider_widget_progress_circle"/>
+    <TextView android:layout_gravity="center_horizontal" android:id="@+id/tv_checking_for_update_text" android:text="@string/STR_DM_CHECKING_UPDATE" style="@style/FotaProviderTheme.TextAppearance.TextView.CheckingForUpdate"/>
+</LinearLayout>

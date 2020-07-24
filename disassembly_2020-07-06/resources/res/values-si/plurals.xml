@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="about_earbuds_edit_invalid_length">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">අනුලකුණු %dකට වඩා එක් කළ නොහැක.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">අනුලකුණු %dකට වඩා එක් කළ නොහැක.</item>
+    </plurals>
+    <plurals name="tips_pair_with_a_phone_or_tablet_desc">
+        <item quantity="zero">N/A</item>
+        <item quantity="one">ඔබ දැනටමත් දුරකථනයක් හෝ ටැබ්ලටයක් සමග ඔබේ කන්පුඩු යුගලනය කර ඇත්නම්, ඒවා නැවත සම්බන්ධ කිරීමට චාජ් කිරීමේ ආවරණය විවෘත කරන්න.\10\10ඒවා ස්වයංක්‍රීයව සම්බන්ධ නොවන්නේ නම්, හෝ ඔබට නව දුරකථනයක් හෝ ටැබ්ලටයක් සමග යුගලනය කිරීමට අවශ්‍ය නම්, ඔබේ කන්පුඩු දමා ගෙන, ඔබට බීප් හඬක් ඇසෙන තෙක් තත්පර %dක් සඳහා කන්පුඩු දෙකම ස්පර්ශ කර සිටින්න.</item>
+        <item quantity="two">N/A</item>
+        <item quantity="few">N/A</item>
+        <item quantity="many">N/A</item>
+        <item quantity="other">ඔබ දැනටමත් දුරකථනයක් හෝ ටැබ්ලටයක් සමග ඔබේ කන්පුඩු යුගලනය කර ඇත්නම්, ඒවා නැවත සම්බන්ධ කිරීමට චාජ් කිරීමේ ආවරණය විවෘත කරන්න.\10\10ඒවා ස්වයංක්‍රීයව සම්බන්ධ නොවන්නේ නම්, හෝ ඔබට නව දුරකථනයක් හෝ ටැබ්ලටයක් සමග යුගලනය කිරීමට අවශ්‍ය නම්, ඔබේ කන්පුඩු දමා ගෙන, ඔබට බීප් හඬක් ඇසෙන තෙක් තත්පර %dක් සඳහා කන්පුඩු දෙකම ස්පර්ශ කර සිටින්න.</item>
+    </plurals>
+</resources>

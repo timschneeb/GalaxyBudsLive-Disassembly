@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.AppCompat">
+    </style>
+    <style name="Base.Theme.AppCompat.Light">
+    </style>
+    <style name="Base.V26.Theme.AppCompat">
+        <item name="colorError">?unknown_attr_ref: 1010543</item>
+    </style>
+    <style name="Base.V26.Theme.AppCompat.Light">
+        <item name="colorError">?unknown_attr_ref: 1010543</item>
+    </style>
+    <style name="Base.V26.Widget.AppCompat.Toolbar">
+        <item name="android:touchscreenBlocksFocus">false</item>
+        <item name="?0x1010540">true</item>
+    </style>
+    <style name="Base.Widget.AppCompat.Toolbar">
+    </style>
+    <style name="Widget.Material.AppBarLayout">
+        <item name="android:paddingBottom">@dimen/sesl_material_extended_appbar_bottom_padding</item>
+        <item name="android:stateListAnimator">@animator/design_appbar_state_list_animator</item>
+        <item name="android:touchscreenBlocksFocus">false</item>
+        <item name="?0x1010540">true</item>
+    </style>
+</resources>

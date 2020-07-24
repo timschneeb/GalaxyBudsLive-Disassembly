@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.google.android.material.appbar.AppBarLayout android:id="@+id/app_bar" android:layout_width="match_parent" android:layout_height="match_parent" app:expanded="false" style="@style/Widget.Material.AppBarLayout">
+        <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@+id/collapsing_app_bar" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_scrollFlags="3" app:title="@string/labs_title" style="@style/Widget.Material.CollapsingToolbar">
+            <androidx.appcompat.widget.Toolbar android:layout_gravity="bottom" android:id="@+id/toolbar" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" app:layout_collapseMode="1" app:navigationIcon="?attr/homeAsUpIndicator" app:title="@string/labs_title"/>
+        </com.google.android.material.appbar.CollapsingToolbarLayout>
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.core.widget.NestedScrollView android:id="@+id/nested_scroll" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/sesl_appbar_scrolling_view_behavior">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <com.samsung.accessory.neobeanmgr.common.ui.ResponsiveWidthLayout android:layout_gravity="center_horizontal" android:layout_width="match_parent" android:layout_height="match_parent">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:id="@+id/layout_labs_desc" android:paddingTop="12dp" android:paddingBottom="30dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:importantForAccessibility="yes" android:paddingStart="24dp" android:paddingEnd="24dp">
+                        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/labs_menu_description" android:textDirection="locale" android:textAlignment="gravity" style="@style/LabsDescriptionTextAppearance"/>
+                    </LinearLayout>
+                    <com.samsung.accessory.neobeanmgr.common.ui.RoundedCornerLayout android:id="@+id/layout_gaming_mode" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <FrameLayout android:background="@color/contents_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <RelativeLayout android:layout_gravity="top|right|center_vertical|center_horizontal|center|end" android:id="@+id/layout_game_mode_switch" android:background="?android:attr/selectableItemBackground" android:layout_width="match_parent" android:layout_height="wrap_content">
+                                <RelativeLayout android:id="@+id/gaming_mode_content_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toStartOf="@+id/switch_layout_gaming_mode">
+                                    <LinearLayout android:orientation="vertical" android:id="@+id/gaming_mode_textlayout" android:focusable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="14dp" android:layout_marginBottom="14dp" android:layout_centerVertical="true" android:layout_marginStart="@dimen/list_item_content_inset">
+                                        <TextView android:id="@+id/textview_game_mode_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_game_mode_title" android:textDirection="locale" android:textAlignment="gravity" style="@style/ListItemTitleTextAppearance"/>
+                                        <TextView android:id="@+id/textview_game_mode_desc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/settings_game_mode_desc" android:textDirection="locale" android:textAlignment="gravity" style="@style/ListItemDescriptionTextAppearance"/>
+                                    </LinearLayout>
+                                </RelativeLayout>
+                                <LinearLayout android:orientation="horizontal" android:id="@+id/switch_layout_gaming_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignTop="@+id/gaming_mode_content_layout" android:layout_alignBottom="@+id/gaming_mode_content_layout" android:layout_centerVertical="true" android:layout_alignParentEnd="true">
+                                    <View android:layout_gravity="center_vertical" android:id="@+id/gaming_mode_switch_divider" android:background="@color/color_app_d4d4d4_opacity_15" android:layout_width="0.5dp" android:layout_height="28dp"/>
+                                    <androidx.appcompat.widget.SwitchCompat android:layout_gravity="center_vertical" android:id="@+id/switch_gaming_mode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="16dp" android:layout_marginEnd="24dp"/>
+                                </LinearLayout>
+                            </RelativeLayout>
+                        </FrameLayout>
+                    </com.samsung.accessory.neobeanmgr.common.ui.RoundedCornerLayout>
+                    <com.samsung.accessory.neobeanmgr.common.ui.RoundedCornerLayout android:id="@+id/layout_relieve_pressure_ambient_sound" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="16dp">
+                        <FrameLayout android:background="@color/contents_background" android:layout_width="match_parent" android:layout_height="wrap_content">
+                            <androidx.constraintlayout.widget.ConstraintLayout android:orientation="horizontal" android:id="@+id/layout_relieve_pressure_ambient_sound_switch" android:background="?android:attr/selectableItemBackground" android:paddingTop="14dp" android:paddingBottom="14dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/list_item_content_inset" android:paddingEnd="@dimen/list_item_content_inset">
+                                <TextView android:id="@+id/textview_relieve_pressure_ambient_sound_title" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/relieve_pressure_ambient_sound_title" android:singleLine="false" android:textDirection="locale" android:textAlignment="gravity" android:layout_marginEnd="16dp" app:layout_constraintBottom_toTopOf="@+id/textview_relieve_pressure_ambient_sound_desc" app:layout_constraintEnd_toStartOf="@+id/switch_relieve_pressure_ambient_sound" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toTopOf="0" style="@style/ListItemTitleTextAppearance"/>
+                                <TextView android:id="@+id/textview_relieve_pressure_ambient_sound_desc" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/relieve_pressure_ambient_sound_desc" android:textDirection="locale" android:textAlignment="gravity" android:layout_marginEnd="16dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toStartOf="@+id/switch_relieve_pressure_ambient_sound" app:layout_constraintStart_toStartOf="0" app:layout_constraintTop_toBottomOf="@+id/textview_relieve_pressure_ambient_sound_title" style="@style/ListItemDescriptionTextAppearance"/>
+                                <androidx.appcompat.widget.SwitchCompat android:id="@+id/switch_relieve_pressure_ambient_sound" android:layout_width="43dp" android:layout_height="27dp" app:layout_constraintBottom_toBottomOf="0" app:layout_constraintEnd_toEndOf="0" app:layout_constraintTop_toTopOf="0"/>
+                            </androidx.constraintlayout.widget.ConstraintLayout>
+                        </FrameLayout>
+                    </com.samsung.accessory.neobeanmgr.common.ui.RoundedCornerLayout>
+                </LinearLayout>
+            </com.samsung.accessory.neobeanmgr.common.ui.ResponsiveWidthLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

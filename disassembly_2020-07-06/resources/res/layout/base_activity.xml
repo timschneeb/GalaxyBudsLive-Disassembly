@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:background="@color/activity_base_background" android:layout_width="match_parent" android:layout_height="match_parent">
+    <com.samsung.android.fotaprovider.util.ResponsiveWidthLinearLayout android:layout_gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:foregroundGravity="fill">
+            <ScrollView android:scrollbarStyle="outsideOverlay" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <ViewStub android:id="@+id/viewstub_top_content" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+                        <ViewStub android:id="@+id/viewstub_middle_content" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+            <include android:layout_width="match_parent" android:layout_height="match_parent" layout="@layout/layout_rounded_corners"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="1">
+            <ViewStub android:layout_gravity="bottom" android:id="@+id/viewstub_bottom_content" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </com.samsung.android.fotaprovider.util.ResponsiveWidthLinearLayout>
+</LinearLayout>
