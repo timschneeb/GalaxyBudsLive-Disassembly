@@ -114,7 +114,7 @@ This can prevent a feeling of stuffiness or compression when you\'re not using a
 <string name="relieve_pressure_ambient_sound_title">Relieve pressure with ambient sound</string>
 ```
 
-Refer to: [/sources/com/samsung/accessory/neobeanmgr/module/mainmenu/LabsActivity.java](disassembly_2020-07-06/sources/com/samsung/accessory/neobeanmgr/module/mainmenu/LabsActivity.java) 
+Refer to: [/sources/com/samsung/accessory/neobeanmgr/module/aboutmenu/LabsActivity.java](disassembly_2020-07-06/sources/com/samsung/accessory/neobeanmgr/module/aboutmenu/LabsActivity.java) 
 
 ### Voice wake-up
 
