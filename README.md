@@ -27,7 +27,7 @@ Original MP4 files are stored here: [/resources/res/raw/](disassembly_2020-07-06
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
 | ![](disassembly_2020-07-06/resources/res/raw/tips_touchpad_triple_tap.gif) | ![](disassembly_2020-07-06/resources/res/raw/tips_touchpad_tap.gif) |
 
-### Loose detection
+### Looseness detection
 
 The Buds Live can detect if they are not properly inserted in your ears. If one bud doesn't not fit correctly it will show a red border around it in the app (displayed in one of the tip cards, not on the battery card):
 
@@ -36,7 +36,7 @@ The Buds Live can detect if they are not properly inserted in your ears. If one 
 | ![](disassembly_2020-07-06/resources/res/drawable-xxhdpi-v4/fit_good_left.png)Good | ![](disassembly_2020-07-06/resources/res/drawable-xxhdpi-v4/fit_good_right.png)Good |
 | ![](disassembly_2020-07-06/resources/res/drawable-xxhdpi-v4/fit_loose_left.png)Loose | ![](disassembly_2020-07-06/resources/res/drawable-xxhdpi-v4/fit_loose_right.png)Loose |
 
-##### Related Strings (Loose detection)
+##### Related Strings (Looseness detection)
 
 ```xml
 <string name="tips_earbuds_fit_results">Earbuds fit result</string>
@@ -74,6 +74,7 @@ Try adjusting your left earbud to get better sound and active noise canceling.
 ## New Hardware
 
 Some parts of the debugging mode within the Buds Live refer to a **gyroscope** and to a sensor called "`Vpu`" in both earpieces. **VPU** is an abbreviation for "[Voice Pickup (Bone) Sensor](https://www.sonion.com/vpu-voice-pick-up-sensor/)" which enhances voice recording especially for calls by processing your bone vibration (afaik, the buds(+) had something similar as well) and can pickup voice wake-up commands. **This new sensor is used with the new [Voice Wakeup Feature](#voice-wake-up)!**
+The gyroscope is probably used for the looseness detection.
 
 ```
 [L>Gyro 0]: XXXX
