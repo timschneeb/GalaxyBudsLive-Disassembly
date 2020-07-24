@@ -167,7 +167,7 @@ The Buds Live get a hidden debug menu as well. It'll work the same way the one f
 
 ### Future Online Manual
 
-As of writing this, the online-manual is not yet available but this may change in the next days/weeks. When it becomes available, you can check it out here: <http://www.samsung.com/m-manual/mod/SM-R180>
+As of writing this, the online-manual is not yet available but this may change in the next days/weeks. When it becomes available, you can check it out here: <http://www.samsung.com/m-manual/mod/SM-R180> (view it on your mobile, it displays an error page on desktops for some reason)
 
 ### Menu Overview
 
