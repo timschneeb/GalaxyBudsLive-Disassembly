@@ -29,7 +29,7 @@ Original MP4 files are stored here: [/resources/res/raw/](disassembly_2020-07-06
 
 ### Loose detection
 
-Apparently the Buds Live can detect if they are not properly inserted in your ears. If one bud doesn't not fit correctly it would show a red border around it in the app:
+The Buds Live can detect if they are not properly inserted in your ears. If one bud doesn't not fit correctly it will show a red border around it in the app (displayed in one of the tip cards, not on the battery card):
 
 | Left                                                         | Right                                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -97,7 +97,7 @@ Refer to: [/sources/com/samsung/accessory/neobeanmgr/core/service/message/MsgDeb
 
 ### Ambient sound? 
 
-Apart from the gaming mode entry in the Labs screen, there's also a new interesting option called "Relieve pressure with ambient sound" and "`PASSTHROUGH`":
+Apart from the gaming mode entry in the Labs screen, there's also a new interesting option called "Relieve pressure with ambient sound" (aka `PASSTHROUGH`):
 
 According to its description:
 
@@ -150,7 +150,7 @@ Refer to: [/sources/com/samsung/accessory/neobeanmgr/core/bixby/BixbyTurnOnFeatu
 
 ### Find my mobile
 
-Interestingly, the app refers to the FMM API (Find my mobile, NOT Find my gear). It may allow users, to let the Buds ring using the Find my mobile website/app and to retrace their steps using GPS in your mobile if you lost your Buds Live or display the GPS location when your Buds Live were last seen by the Android device. This is just a guess though.
+Interestingly, the app refers to the FMM API (Find my mobile, NOT Find my gear). It may allow users, to let the Buds ring using the Find my mobile website/app and to retrace their steps using phone's GPS if you lost your Buds Live or to display the GPS location when they were last seen by the Android device. This is just a guess though.
 
 Refer to: [/sources/com/samsung/accessory/neobeanmgr/core/fmm/](disassembly_2020-07-06/sources/com/samsung/accessory/neobeanmgr/core/fmm/)
 
@@ -164,11 +164,11 @@ Refer to: [/sources/com/samsung/accessory/neobeanmgr/core/service/EarBudsUsageRe
 
 ### Debug Menu
 
-The Buds Live get a hidden debug menu as well. It'll work the same way the one for the Buds+ did. Check my reddit post (including instructions) about this: <https://www.reddit.com/r/galaxybuds/comments/hjgfaf/galaxy_buds_i_found_a_new_debug_menu/>
+The Buds Live get a hidden debug menu as well. It'll work the same way the one for the Buds+ did. Check my reddit post (includes instructions) about this: <https://www.reddit.com/r/galaxybuds/comments/hjgfaf/galaxy_buds_i_found_a_new_debug_menu/>
 
 ### Future Online Manual
 
-As of writing this, the online-manual is not yet available but this may change in the upcoming weeks. When it becomes available, you can check it out here: <http://www.samsung.com/m-manual/mod/SM-R180>
+As of writing this, the online-manual is not yet available but this may change in the next days/weeks. When it becomes available, you can check it out here: <http://www.samsung.com/m-manual/mod/SM-R180>
 
 ### Menu Overview
 
@@ -206,8 +206,6 @@ As of writing this, the online-manual is not yet available but this may change i
 #### Find my buds
 
 * Same as the Buds/Buds+; exactly what you would expect
-
-
 
 
 
