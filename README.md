@@ -73,7 +73,7 @@ Try adjusting your left earbud to get better sound and active noise canceling.
 
 ## New Hardware
 
-Some parts of the debugging mode within the Buds Live refer to a **gyroscope** and to a sensor called "`Vpu`" in both earpieces. **VPU** may be an abbreviation for "[Voice Pickup Sensor](https://www.sonion.com/vpu-voice-pick-up-sensor/)" which enhances voice recording especially for calls. I'm almost certain this new sensor is used with the new [Voice Wakeup Feature](#voice-wake-up)!
+Some parts of the debugging mode within the Buds Live refer to a **gyroscope** and to a sensor called "`Vpu`" in both earpieces. **VPU** may be an abbreviation for "[Voice Pickup Sensor](https://www.sonion.com/vpu-voice-pick-up-sensor/)" which enhances voice recording especially for calls and can pickup voice wake-up commands. **This new sensor is used with the new [Voice Wakeup Feature](#voice-wake-up)!**
 
 ```
 [L>Gyro 0]: XXXX
