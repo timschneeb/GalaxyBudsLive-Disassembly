@@ -210,4 +210,4 @@ As of writing this, the online-manual is not yet available but this may change i
 
 ___________
 
-Check my [Unofficial Windows client](https://github.com/ThePBone/GalaxyBudClient) for the Buds and Buds+ out!
+Check my [Unofficial Windows client](https://github.com/ThePBone/GalaxyBudsClient) for the Buds and Buds+ out!
